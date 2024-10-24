@@ -4,8 +4,8 @@
     "recipe_id": "1",
     "recipe_name": "Chicken Basil Stir Fry",
     "short_description": "A flavorful stir fry with tender chicken and fresh basil.",
-    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
-    "preparing_time": "30 min",
+    "ingredients": ["550 gm chicken", "120 ml soy sauce", "200 gm basil leaves", "400 gm mushroom"],
+    "preparing_time": "30",
     "calories": "350"
   },
   {
@@ -13,8 +13,8 @@
     "recipe_id": "2",
     "recipe_name": "Classic Spaghetti Bolognese",
     "short_description": "Rich and hearty Italian pasta with ground beef and tomatoes.",
-    "ingredients": ["500 g ground beef", "250 g spaghetti", "200 ml tomato sauce", "1 onion", "100 g parmesan"],
-    "preparing_time": "45 min",
+    "ingredients": ["500 gm ground beef", "250 gm spaghetti", "200 ml tomato sauce", "1 onion", "100 gm parmesan"],
+    "preparing_time": "45",
     "calories": "520"
   },
   {
@@ -22,8 +22,8 @@
     "recipe_id": "3",
     "recipe_name": "Vegan Coconut Curry",
     "short_description": "A creamy and spicy vegan curry made with coconut milk and veggies.",
-    "ingredients": ["400 g chickpeas", "250 ml coconut milk", "150 g spinach", "1 red bell pepper", "3 tbsp curry powder"],
-    "preparing_time": "25 min",
+    "ingredients": ["400 gm chickpeas", "250 ml coconut milk", "150 gm spinach", "1 red bell pepper", "3 tbsp curry powder"],
+    "preparing_time": "25",
     "calories": "400"
   },
   {
@@ -31,8 +31,8 @@
     "recipe_id": "4",
     "recipe_name": "Grilled Lemon Garlic Salmon",
     "short_description": "Succulent salmon fillets grilled with lemon and garlic.",
-    "ingredients": ["500 g salmon fillets", "2 lemons", "3 garlic cloves", "2 tbsp olive oil", "Fresh parsley"],
-    "preparing_time": "20 min",
+    "ingredients": ["500 gm salmon fillets", "2 lemons", "3 garlic cloves", "2 tbsp olive oil", "Fresh parsley"],
+    "preparing_time": "20",
     "calories": "350"
   },
   {
@@ -40,8 +40,8 @@
     "recipe_id": "5",
     "recipe_name": "Fluffy Buttermilk Pancakes",
     "short_description": "Light and fluffy pancakes perfect for breakfast.",
-    "ingredients": ["250 g flour", "300 ml buttermilk", "2 eggs", "1 tsp baking powder", "50 g sugar"],
-    "preparing_time": "25 min",
+    "ingredients": ["250 gm flour", "300 ml buttermilk", "2 eggs", "1 tsp baking powder", "50 gm sugar"],
+    "preparing_time": "25",
     "calories": "450"
   },
   {
@@ -49,8 +49,8 @@
     "recipe_id": "6",
     "recipe_name": "Traditional Greek Salad",
     "short_description": "A refreshing salad with tomatoes, cucumbers, olives, and feta.",
-    "ingredients": ["200 g cucumbers", "250 g tomatoes", "150 g feta cheese", "50 g olives", "1 tbsp olive oil"],
-    "preparing_time": "15 min",
+    "ingredients": ["200 gm cucumbers", "250 gm tomatoes", "150 gm feta cheese", "50 gm olives", "1 tbsp olive oil"],
+    "preparing_time": "15",
     "calories": "220"
   },
   {
@@ -58,8 +58,8 @@
     "recipe_id": "7",
     "recipe_name": "Hearty Beef Stew",
     "short_description": "A rich and comforting stew made with tender beef and vegetables.",
-    "ingredients": ["500 g beef chunks", "200 g potatoes", "150 g carrots", "2 garlic cloves", "500 ml beef broth"],
-    "preparing_time": "1 hr 30 min",
+    "ingredients": ["500 gm beef chunks", "200 gm potatoes", "150 gm carrots", "2 garlic cloves", "500 ml beef broth"],
+    "preparing_time": "30",
     "calories": "600"
   },
   {
@@ -68,7 +68,7 @@
     "recipe_name": "Mango Banana Smoothie",
     "short_description": "A refreshing smoothie with mangoes and bananas for a quick breakfast.",
     "ingredients": ["1 mango", "1 banana", "200 ml coconut water", "1 tbsp honey", "Ice cubes"],
-    "preparing_time": "10 min",
+    "preparing_time": "10",
     "calories": "250"
   }
 ]
