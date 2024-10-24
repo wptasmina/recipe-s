@@ -3,8 +3,6 @@
 export default function RecipesTable({
   recipeQuentity,
   handleRemove
-
-  
 }) {
   return (
     <>
@@ -23,10 +21,10 @@ export default function RecipesTable({
           <tbody className="text-gray-400 font-semibold text-xs">
             {recipeQuentity.map((recipe, index) => (
               <tr key={index} className="hover">
-                <th>{index + 1}</th>
-                <td className="py-4 text-gray-600">{recipe.recipe_name}</td>
-                <td className="py-4 text-center">{recipe.preparing_time}</td>
-                <td className="py-4 text-center">{recipe.calories}</td>
+                <th className="px-0">{index + 1}</th>
+                <td className="py-4 px-0 text-gray-600">{recipe.recipe_name}</td>
+                <td className="py-4 px-0 text-center">{recipe.preparing_time}</td>
+                <td className="py-4 px-0 text-center">{recipe.calories}</td>
                 <td className="p-0">
                   <button
                     onClick={() => {

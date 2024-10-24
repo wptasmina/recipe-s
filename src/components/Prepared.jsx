@@ -16,25 +16,27 @@ export default function Prepared({ preparedRecipe, totleTime, totleCalories }) {
           </thead>
           <tbody className="text-gray-400 font-semibold text-xs">
             {preparedRecipe.map((recipe, index) => (
-              <tr key={index} className="hover">
+              <tr key={index} className="hover px-0">
                 <th>{index + 1}</th>
-                <td className="py-4 text-gray-600">{recipe.recipe_name}</td>
-                <td className="py-4 text-center">{recipe.preparing_time}</td>
-                <td className="py-4 text-center">{recipe.calories}</td>
+                <td className="py-4 px-0 text-gray-600">
+                  {recipe.recipe_name}
+                </td>
+                <td className="py-4 px-0 text-center">
+                  {recipe.preparing_time}
+                </td>
+                <td className="py-4 px-0 text-center">{recipe.calories}</td>
               </tr>
             ))}
-            <tr>
-              <td></td>
-              <td></td>
-              <td className="py-4 text-gray-700 text-md">
-                Totle Time: {totleTime}
-              </td>
-              <td className="py-4 text-gray-700 text-md">
-                Totle Calories: {totleCalories}
-              </td>
-            </tr>
           </tbody>
         </table>
+        <div className="flex justify-around md:py-10 py-6 border-t ">
+          <p className=" text-gray-600 md:text-lg text-xs font-bold md:font-semibold">
+            Totle Time: {totleTime}
+          </p>
+          <p className=" text-gray-600 md:text-lg text-xs font-bold md:font-semibold">
+            Totle Calories: {totleCalories}
+          </p>
+        </div>
       </div>
     </>
   );

@@ -48,7 +48,7 @@ export default function Card({ addRecpeQuentity }) {
                   <div className="inline-flex items-center">
                     <GoStopwatch className="text-lg text-[#068F56] font-bold" />
                     <p className="text-sm ml-1 font-bold text-gray-600">
-                      {recipe.preparing_time}
+                      {recipe.preparing_time} min
                     </p>
                   </div>
                   <div className="inline-flex items-center">

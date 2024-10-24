@@ -28,7 +28,7 @@ export default function CardContainer() {
   }
 
   //Calculate Time and Calorise
-  const [totleTime, setTotleTime] = useState(0)
+  const [totleTime, setTotleTime] = useState();
    useEffect(() => {
      const totalTime = preparedRecipe.reduce(
        (acc, cur) => acc + parseInt(cur.preparing_time),

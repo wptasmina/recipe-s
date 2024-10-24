@@ -67,7 +67,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end ">
+        <div className="navbar-end">
           <div className="relative inline-flex justify-center items-center outline-none ml-6">
             <IoMdSearch className="absolute right-4 text-2xl text-teal-500 z-10 cursor-pointer lg:block md:block hidden" />
             <input
@@ -76,7 +76,7 @@ export default function Header() {
               className="input input-bordered w-24 md:w-auto rounded-full lg:block md:block hidden"
             />
           </div>
-          <a className="md:w-9 w-8 ml-6 md:border md:border-teal-500 rounded-full md:p-1 cursor-pointer shadow-md">
+          <a className="md:w-9 w-8 ml-6 md:border md:border-teal-500 md:mr-0 mr-3 rounded-full md:p-1 cursor-pointer shadow-md">
             <img src={cooking} alt="Logo" />
           </a>
         </div>
