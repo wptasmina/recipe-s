@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Card from "./Card";
 import SideBar from "./SideBar";
 
@@ -27,6 +27,27 @@ export default function CardContainer() {
     setPreparedRecipe([...preparedRecipe, deleteRecipe]);
   }
 
+  //Calculate Time and Calorise
+  const [totleTime, setTotleTime] = useState(0)
+   useEffect(() => {
+     const totalTime = preparedRecipe.reduce(
+       (acc, cur) => acc + parseInt(cur.preparing_time),
+       0
+     );
+     setTotleTime(totalTime);
+   }, [preparedRecipe]);
+
+
+  const [totleCalories, setTotleCalories] = useState(0)
+  useEffect(() => {
+    const totleCalories = preparedRecipe.reduce(
+      (acc, cur) => acc + parseInt(cur.calories),
+      0
+    );
+    setTotleCalories(totleCalories);
+  }, [preparedRecipe]);
+  
+
   return (
     <>
       <section className="min-h-screen space-y-5 mb-10">
@@ -50,6 +71,9 @@ export default function CardContainer() {
             recipeQuentity={recipeQuentity}
             handleRemove={handleRemove}
             preparedRecipe={preparedRecipe}
+            
+            totleTime={totleTime}
+            totleCalories={totleCalories}
           />
         </div>
       </section>
