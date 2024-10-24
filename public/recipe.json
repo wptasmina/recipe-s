@@ -1,0 +1,74 @@
+[
+  {
+    "recipe_img": "https://i.ibb.co.com/4MFZy91/chacken.jpg",
+    "recipe_id": "1",
+    "recipe_name": "Chicken Basil Stir Fry",
+    "short_description": "A flavorful stir fry with tender chicken and fresh basil.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+    "preparing_time": "30 min",
+    "calories": "350"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/k9BBM3Z/blass.png",
+    "recipe_id": "2",
+    "recipe_name": "Classic Spaghetti Bolognese",
+    "short_description": "Rich and hearty Italian pasta with ground beef and tomatoes.",
+    "ingredients": ["500 g ground beef", "250 g spaghetti", "200 ml tomato sauce", "1 onion", "100 g parmesan"],
+    "preparing_time": "45 min",
+    "calories": "520"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/5Rdw2Wy/Veagn.jpg",
+    "recipe_id": "3",
+    "recipe_name": "Vegan Coconut Curry",
+    "short_description": "A creamy and spicy vegan curry made with coconut milk and veggies.",
+    "ingredients": ["400 g chickpeas", "250 ml coconut milk", "150 g spinach", "1 red bell pepper", "3 tbsp curry powder"],
+    "preparing_time": "25 min",
+    "calories": "400"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/p2bnN10/grach-lomon.jpg",
+    "recipe_id": "4",
+    "recipe_name": "Grilled Lemon Garlic Salmon",
+    "short_description": "Succulent salmon fillets grilled with lemon and garlic.",
+    "ingredients": ["500 g salmon fillets", "2 lemons", "3 garlic cloves", "2 tbsp olive oil", "Fresh parsley"],
+    "preparing_time": "20 min",
+    "calories": "350"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/dJQrZsC/bb.jpg",
+    "recipe_id": "5",
+    "recipe_name": "Fluffy Buttermilk Pancakes",
+    "short_description": "Light and fluffy pancakes perfect for breakfast.",
+    "ingredients": ["250 g flour", "300 ml buttermilk", "2 eggs", "1 tsp baking powder", "50 g sugar"],
+    "preparing_time": "25 min",
+    "calories": "450"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/59dsNy4/salad.jpg",
+    "recipe_id": "6",
+    "recipe_name": "Traditional Greek Salad",
+    "short_description": "A refreshing salad with tomatoes, cucumbers, olives, and feta.",
+    "ingredients": ["200 g cucumbers", "250 g tomatoes", "150 g feta cheese", "50 g olives", "1 tbsp olive oil"],
+    "preparing_time": "15 min",
+    "calories": "220"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/yp1CmhX/download-1.jpg",
+    "recipe_id": "7",
+    "recipe_name": "Hearty Beef Stew",
+    "short_description": "A rich and comforting stew made with tender beef and vegetables.",
+    "ingredients": ["500 g beef chunks", "200 g potatoes", "150 g carrots", "2 garlic cloves", "500 ml beef broth"],
+    "preparing_time": "1 hr 30 min",
+    "calories": "600"
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/r3gwDJW/banana.jpg",
+    "recipe_id": "8",
+    "recipe_name": "Mango Banana Smoothie",
+    "short_description": "A refreshing smoothie with mangoes and bananas for a quick breakfast.",
+    "ingredients": ["1 mango", "1 banana", "200 ml coconut water", "1 tbsp honey", "Ice cubes"],
+    "preparing_time": "10 min",
+    "calories": "250"
+  }
+]
