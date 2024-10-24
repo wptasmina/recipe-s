@@ -1,6 +1,6 @@
 # React + Vite
 
-GitHub Live Link: https://wptasmina.github.io/recipe-s 
+Netlify Link: https://special-recipes-rst.netlify.app
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
