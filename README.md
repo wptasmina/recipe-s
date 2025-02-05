@@ -2,7 +2,7 @@
 
 # 🍽️ Project Name: Special Recipes
 
-### 🚀 Live Demo: [Special Recipes] [(https://special-recipes-rst.netlify.app)]
+### 🚀 Live Demo: [Special Recipes] [https://special-recipes-rst.netlify.app]
 
 ## 📌 Project Overview
 Special Recipes is a modern, responsive web application designed for food lovers to explore, share, and try out delicious recipes. Built with React and Vite, it ensures a seamless user experience with fast performance and interactive UI.
