@@ -1,8 +1,10 @@
-# React + Vite
+
+![Special_Recipes](https://github.com/user-attachments/assets/fac488d4-a247-4faa-b8cd-d6119896bbfa)
+
 
 # 🍽️ Project Name: Special Recipes
 
-### 🚀 Live Demo: [Special Recipes] [https://special-recipes-rst.netlify.app]
+### 🚀 Live Demo: [Special Recipes](https://special-recipes-rst.netlify.app)
 
 ## 📌 Project Overview
 Special Recipes is a modern, responsive web application designed for food lovers to explore, share, and try out delicious recipes. Built with React and Vite, it ensures a seamless user experience with fast performance and interactive UI.
