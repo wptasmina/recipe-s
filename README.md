@@ -1,6 +1,6 @@
 
-![Special_Recipes](https://github.com/user-attachments/assets/fac488d4-a247-4faa-b8cd-d6119896bbfa)
 
+![Special_Recipes](https://github.com/user-attachments/assets/92a71c6f-80c7-4cbd-8ba0-6ea1dc13c927)
 
 # 🍽️ Project Name: Special Recipes
 
