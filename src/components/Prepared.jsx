@@ -29,7 +29,7 @@ export default function Prepared({ preparedRecipe, totleTime, totleCalories }) {
             ))}
           </tbody>
         </table>
-        <div className="flex justify-around md:py-10 py-6 border-t ">
+        <div className="flex flex-1 justify-around md:py-10 py-6 border-t">
           <p className=" text-gray-600 md:text-lg text-xs font-bold md:font-semibold">
             Totle Time: {totleTime}
           </p>

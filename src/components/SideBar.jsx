@@ -12,7 +12,7 @@ export default function SideBar({
   totleCalories,
 }) {
   return (
-    <div className="md:w-1/3 bg-white p-4 shadow border border-[#a7f6d53d] rounded-xl">
+    <div className="md:w-1/3 bg-white px-4 py-10 shadow border border-[#a7f6d53d] rounded-xl">
       <div>
         <h2 className="text-gray-800 text-lg text-center font-bold border-b pb-4">
           Want To Cook: {recipeQuentity.length}

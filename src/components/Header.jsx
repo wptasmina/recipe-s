@@ -25,9 +25,9 @@ export default function Header() {
   const navLink = (
     <>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Recipes</a></li>
+      <li><a href="#recipes">Recipes</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Search</a></li>
+      <li><a href="#">Contact</a></li>
     </>
   );
 
@@ -74,13 +74,13 @@ export default function Header() {
         {/* Dark Mode Toggle Button */}
         <button
           onClick={toggleTheme}
-          className="ml-4 text-2xl text-teal-600 dark:text-white p-2 rounded-full border border-teal-500 dark:border-teal-500 shadow-md"
+          className="ml-4 text-xl text-teal-600 dark:text-teal-600 p-2 rounded-full border border-teal-500 dark:border-teal-600 shadow-md"
         >
-          {theme === "light" ? <BsMoon /> : <BsSun />}
+          {theme === "light" ? <BsMoon /> : <BsSun className="text-white" />}
         </button>
 
         {/* Cooking Icon */}
-        <a className="md:w-9 w-8 ml-6 md:border md:border-teal-500 md:mr-0 mr-3 rounded-full md:p-1 cursor-pointer shadow-md">
+        <a className="md:w-9 w-8 ml-6 md:border md:border-teal-500 md:mr-0 mr-3 rounded-full md:p-1 cursor-pointer bg-white shadow-md">
           <img src={cooking} alt="Cooking Icon" />
         </a>
       </div>

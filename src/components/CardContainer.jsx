@@ -52,7 +52,7 @@ export default function CardContainer() {
     <>
       <section className="min-h-screen space-y-5 mb-10">
         <div className="text-center md:w-2/3 mx-auto">
-          <h2 className="text-black font-bold lg:text-4xl text-2xl">
+          <h2 className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white font-bold lg:text-4xl text-2xl">
             Our <span className="text-[#02B76C]">Recipe</span>
           </h2>
           <p className="text-gray-500 font-bold lg:text-lg text-md py-4">
