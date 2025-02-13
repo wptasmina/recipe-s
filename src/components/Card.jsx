@@ -16,12 +16,12 @@ export default function Card({ addRecpeQuentity }) {
       <div className="lg:w-2/3">
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           {recipes.map((recipe) => (
-            <div
+            <div data-aos="zoom-in" data-aos-duration="2000"
               key={recipe.recipe_id}
               className="card card-compact bg-white p-4 shadow border border-[#a7f6d53d]"
             >
               <figure>
-                <img
+                <img 
                   className="w-full h-52 object-cover object-center block rounded-2xl"
                   src={recipe.recipe_img}
                   alt="Recipe image"
@@ -62,7 +62,7 @@ export default function Card({ addRecpeQuentity }) {
                 <div className="card-actions py-3">
                   <button
                     onClick={() => addRecpeQuentity(recipe)}
-                    className="px-6 py-2 text-gray-800 bg-[#23bd7d] rounded-full text-md font-semibold cursor-pointer"
+                    className="px-6 py-2 text-gray-800 bg-[#23bd7d] hover:text-white rounded-full text-md font-semibold cursor-pointer"
                   >
                     Want to Cook
                   </button>
